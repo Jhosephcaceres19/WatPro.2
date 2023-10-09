@@ -1,0 +1,124 @@
+body{
+    
+    background-image: url("../img/portada.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 95vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    
+}
+.h1{
+    margin: 0;
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  .my-button:active {
+    background-color: #3e8e41;
+  }
+  
+@media (min-width: 768px) {
+    .container {
+        max-width: 60%; /* Cambia el ancho en escritorio */
+    }
+}
+
+@media(min-width: 1024px){
+    .container {
+        max-width: 10%; /* Cambia el ancho en pantallas aún más grandes si es necesario */
+        padding: 20px;  
+        max-width: 80%;
+        font-size: 1.3em;
+        
+    }
+    .imagenlogo{
+        
+        height: 150px;
+        width: 500px;   
+    }
+   
+
+}
+
+/* Estilos para pantallas aún más grandes (opcional) */
+@media (min-width: 1200px) {
+    .container {
+        .container {
+            max-width: 10%; /* Cambia el ancho en pantallas aún más grandes si es necesario */
+            padding: 20px;  
+            max-width: 80%;
+            font-size: 1.5em;
+        }
+        .imagenlogo{
+            
+            height: 200px;
+            width: 500px;
+        }
+    }
+}
+@media(min-width: 1495px){
+    .container {
+        max-width: 10%; /* Cambia el ancho en pantallas aún más grandes si es necesario */
+        padding: 20px;  
+        max-width: 80%;
+        font-size: 1.5em;
+    }
+    .imagenlogo{
+        height: 200 px;
+        width: 500px;
+    }
+}
+@media(min-width: 1440px){
+    .container {
+       
+        font-size: 1.2em;
+    }
+    .imagenlogo{
+        
+        height: 150px;
+        width: 500px;
+    }
+}
+@media(min-width: 2560px){
+    .container {
+        max-width: 10%; /* Cambia el ancho en pantallas aún más grandes si es necesario */
+        padding: 20px;  
+        max-width: 80%;
+        font-size: 2.4em;
+    }
+    
+    .logo img {
+        width: 900%; 
+        height: auto; 
+        max-width: 200%; 
+    }
+
+
+
+}
+
+
+
+
